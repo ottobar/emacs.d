@@ -1,0 +1,6 @@
+[submodule "rhtml-mode"]
+	path = rhtml-mode
+	url = git://github.com/eschulte/rhtml.git
+[submodule "cucumber-mode"]
+	path = cucumber-mode
+	url = git://github.com/michaelklishin/cucumber.el.git
