@@ -20,7 +20,7 @@ If you are using Emacs 22, you already have the needed url package, and you can 
       (eval-region (point) (point-max))
       (kill-buffer (current-buffer))))
 
-You can type the this in the `\*scratch\*` buffer, and then type `C-j` after it to evaluate it.
+You can type the this in the `*scratch*` buffer, and then type `C-j` after it to evaluate it.
 
 Currently, I am using these ELPA packages and their dependencies:
 
