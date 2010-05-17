@@ -23,6 +23,7 @@ If you are using Emacs 22, you already have the needed url package, and you can 
 You can type the this in the `*scratch*` buffer, and then type `C-j` after it to evaluate it.
 
 Currently, I am using these ELPA packages and their dependencies:
+(M-x package-list-packages)
 
 - clojure-mode
 - clojure-test-mode
