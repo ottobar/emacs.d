@@ -11,6 +11,7 @@
 (add-to-list 'load-path (concat dot-emacs-dot-d "elpa"))
 (setq package-user-dir (concat dot-emacs-dot-d "elpa"))
 (setq custom-file (concat dot-emacs-dot-d "custom.el"))
+(setq-default fill-column 100)
 
 ;; These should be loaded on startup rather than autoloaded on demand
 ;; since they are likely to be used in every session
