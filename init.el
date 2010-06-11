@@ -62,3 +62,5 @@
 ;; Save place
 (require 'saveplace)
 (setq-default save-place t)
+
+(require 'x12-mode)
