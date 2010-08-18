@@ -102,6 +102,8 @@ exec-to-string command, but it works and seems fast"
 (add-to-list 'load-path (concat dot-emacs-dot-d "cucumber-mode"))
 (require 'feature-mode)
 (add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))
+(add-hook 'feature-mode-hook 'idle-highlight)
+(add-hook 'feature-mode-hook 'turn-on-hl-line-mode)
 
 ;; Yasnippets for Ruby, Rails, Cucumber and Rspec
 ;;(load-file (concat dot-emacs-dot-d "/yasnippets-ruby/setup.el"))

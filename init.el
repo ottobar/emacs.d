@@ -64,3 +64,4 @@
 (setq-default save-place t)
 
 (require 'x12-mode)
+(global-set-key (kbd "M-C-x m") 'x12-mode)

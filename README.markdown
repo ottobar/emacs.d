@@ -33,9 +33,11 @@ Currently, I am using these ELPA packages and their dependencies:
 - idle-highlight
 - inf-ruby
 - js2-mode
+- less
 - magit
 - rinari
 - rspec-mode
+- ruby-electric
 - ruby-mode
 - ruby-test-mode
 - sass-mode
